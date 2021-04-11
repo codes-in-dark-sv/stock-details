@@ -1,0 +1,31 @@
+{
+  "name": "stock-detail",
+  "version": "1.0.0",
+  "description": "stocks list of companies server side",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codes-in-dark-sv/stock-details.git"
+  },
+  "keywords": [
+    "stocks"
+  ],
+  "author": "piyushohri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codes-in-dark-sv/stock-details/issues"
+  },
+  "homepage": "https://github.com/codes-in-dark-sv/stock-details#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "save": "^2.4.0",
+    "unirest": "^0.6.0"
+  }
+}
